@@ -7,6 +7,13 @@ Possible library for celestial map:
 * [d3-celestial](https://github.com/)
 
 The current plan is to build out a shared core architecture for both Terrastories and Stellarstores (and any future extensions). This will help us guarantee and further develop platform stability for both apps, if one is being worked on. We still have to scope out the best way to do this in terms of repo management.
+
+## How to contribute
+
+We would love your ideas and links for possible inspiration for this project! Please feel free to share by filing a Github issue on this repository.
+
+If you are interested in volunteering to get a proof of concept working for StellarStories, please join the [#terrastories channel on Slack](https://rubyforgood.herokuapp.com/).
+
 ## Concept note
 
 We humans have always been fascinated by, and in awe of the sublime celestial bodies that surface above our heads every day when the skies turn dark. Since time immemorial, our ancestors have tried to make sense of the mysteries of the vast galaxy, and our position within it. Numerous cultures across the world have their own cosmologies about the stars, planets, constellations, galaxies, and other stellar apparitions. In contemporary times, although the scientific field of astronomy has enabled us to obtain a deep understanding of the origins and physical properties of the universe, the rich mythologies of the stars as gifted to us by the ancient Greeks continues to enthrall us as we gaze upwards to the night sky. However, the Greeks were hardly the only culture to articulate a rich tapestry of stories about the stars; Indigenous communities the world over have their own storytelling traditions about the cosmos and constellations[^1][^2], which may well be some of the most ancient oral histories that our species continues to pass along to younger generations, and therefore comprise an invaluable source of our shared intangible cultural heritage. Yet, these stories are hardly known or documented, and are at high risk of being lost as oral history storytelling traditions are at risk of disappearing due to acculturation and other pressures, along with increased light pollution[^3].
