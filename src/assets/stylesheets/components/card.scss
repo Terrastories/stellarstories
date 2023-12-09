@@ -1,0 +1,264 @@
+$el-shadow: 0 1px 4px $lighter-gray;
+
+.cardContainer {
+  position: relative;
+  width: 45%;
+  max-width: 25rem;
+  height: 100%;
+
+  &.onCanvas {
+    .card {
+      display: block;
+      top: 0;
+      left: 0;
+    }
+    .tab {
+      &:after {
+        content: '◀';
+      }
+    }
+  }
+
+  &.offCanvas {
+    @media screen and (min-width: 600px) {
+      pointer-events: none;
+    }
+
+    .card {
+      left: -100%;
+    }
+    .tab {
+      pointer-events: all;
+      &:after {
+        content: '▶';
+      }
+      left: 0;
+    }
+  }
+
+  .closeMe {
+    display: none;
+  }
+
+  .card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    border: 1px solid $lightest-gray;
+    border-right: 1px solid $lighter-gray;
+    border-bottom: 1px solid $lighter-gray;
+    background: $off-white;
+    padding: 0.5rem;
+    box-shadow: 3px 2px 3px transparentize($dark-gray, 0.9);
+    transition: left 0.2s ease-in-out;
+  }
+
+  .bar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .tab {
+    cursor: pointer;
+    color: transparentize(white, 0.6);
+    position: absolute;
+    top: 0.5rem;
+    right: -2rem; // same as width of tab
+    width: 2rem;
+    height: 4rem;
+    line-height: 3.9rem;
+    text-align: center;
+    border-radius: 0 6px 6px 0;
+    background: $dark-blue;
+    box-shadow: 3px 2px 3px transparentize($dark-gray, 0.9);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .card--logo {
+    margin: 0;
+    padding: 1rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .card--intro {
+    display: none;
+    background-color: $dark-blue;
+    padding: 1rem;
+    * {
+      color: white;
+    }
+  }
+
+  .card--nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: sans-serif;
+    margin-bottom: 0.75rem;
+
+    &-filter,
+    &-sort {
+      font-family: 'OpenSansCondensed';
+      color: $default-text;
+    }
+
+    .categoryFilter .storiesSort {
+      margin: 0.5rem 0;
+    }
+  }
+
+  .card--tasks {
+    padding: 0.5rem 0;
+    @include ui-font;
+
+    ul li {
+      list-style: none;
+      padding: 0 0.5rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  .stories {
+    overflow-x: hidden;
+    flex: 5 0 0;
+    .container {
+      padding-bottom: 3rem;
+
+      .description {
+        white-space: pre-wrap;
+      }
+    }
+    .speakers {
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        border: 2px solid $black;
+        margin-right: 5px;
+      }
+      padding-bottom: 0.25rem;
+    }
+    li {
+      &.isActive {
+        border: 3px solid $dark-blue;
+      }
+
+      list-style: none;
+      padding: 0.75rem;
+      background: white;
+      margin-bottom: 0.5rem;
+      box-shadow: $el-shadow;
+      .thumbnail {
+        width: 50px;
+        height: 50px;
+        border-radius: 3px;
+        float: right;
+        margin: 0 0 1rem 1rem;
+        &.placeholder {
+          background-color: $light-gray;
+        }
+      }
+      .title {
+        overflow-wrap: break-word;
+      }
+      p {
+        font-size: 0.85rem;
+        overflow-wrap: break-word;
+        line-height: 1.25;
+        margin-top: 1rem;
+        @include ui-font;
+        padding-bottom: 1rem;
+        b {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+// Responsive patches
+
+@include for-phone-only {
+  .cardContainer {
+    &.onCanvas {
+      width: 0;
+
+      .closeMe {
+        display: none;
+      }
+      .card {
+        top: 0;
+        left: -100vw;
+      }
+      .tab {
+        &:after {
+          content: '';
+        }
+      }
+    }
+
+    &.offCanvas {
+      width: 100%;
+
+      .card {
+        top: 0;
+        left: 0;
+      }
+    }
+
+    .closeMe {
+      display: block;
+      position: absolute;
+      right: 0.5rem;
+      top: 0.5rem;
+      color: $black;
+      font-family: sans-serif;
+      font-size: 1.25rem;
+      cursor: pointer;
+      z-index: 2;
+
+      &:after {
+        content: '✕';
+      }
+    }
+
+    .card {
+      width: 100vw;
+    }
+
+    .tab {
+      &:focus {
+        outline: none;
+      }
+
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-tap-highlight-color: transparent;
+
+      &:after {
+        content: '';
+      }
+
+      .arrow {
+        width: 0;
+        height: 0;
+        border-top: 12px solid transparent;
+        border-left: 15px solid rgba(255, 255, 255, 0.9);
+        border-bottom: 12px solid transparent;
+        margin-top: 1.1rem;
+        margin-left: 0.5rem;
+      }
+
+      background: orange;
+      left: 0;
+      top: 0.5rem;
+      border-radius: 0;
+    }
+  }
+}

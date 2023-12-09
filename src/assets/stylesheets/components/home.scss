@@ -1,0 +1,23 @@
+.mapboxgl-map.ts-MainMap, .maplibregl-map.ts-MainMap {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .mapboxgl-ctrl-minimap {
+    display: none;
+  }
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}

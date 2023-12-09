@@ -1,0 +1,77 @@
+.ts-markerPopup {
+  &-content {
+    padding: 0.5rem;
+    color: $default-text;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $green; /* this should inherit the color of the marker associated with the type of place */
+    &-button {
+      align-self: flex-start;
+      margin-top: 6px;
+      margin-right: 6px;
+      font-size: 15px;
+      background: none;
+      border: none;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+
+  &-tag {
+    overflow-wrap: break-word;
+  }
+
+  &-label {
+    font-weight: bold !important;
+  }
+
+  &-description {
+    margin: 10px 0;
+    overflow-wrap: break-word;
+  }
+
+  &-audio {
+    width: 100%;
+  }
+
+  .mapboxgl-popup-content, .maplibregl-popup-content {
+    h1, h2, h3, h4, h5, p, img {
+      margin: 0;
+    }
+    padding: 0rem;
+
+    h1 {
+      text-align: center;
+      overflow-wrap: break-word;
+      overflow: auto;
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 1.25;
+      color: $white;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      padding: 1rem;
+      padding-top: 1.25rem;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 0.8rem;
+      line-height: 1.55;
+
+    }
+
+    .mapboxgl-popup-close-button {
+      color: $white;
+      font-size: 1rem;
+    }
+  }
+}
