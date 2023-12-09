@@ -1,6 +1,6 @@
 # Aboriginal and Torres Strait Islander Indigenous astronomy, geography, and star maps
 
-Submitted by @rudokemper
+Submitted by [rudokemper](https://github.com/rudokemper)
 
 https://indigenousknowledge.unimelb.edu.au/curriculum/resources/indigenous-astronomy,-geography,-and-star-maps?fbclid=IwAR0W0yK87j48zh5G_UBciOzjZATbstO0ad1hmO9qT0a6g1EvVaEx01KkcGI
 

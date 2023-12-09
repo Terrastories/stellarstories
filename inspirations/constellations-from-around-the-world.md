@@ -1,6 +1,6 @@
 # Constellations from Around the World
 
-Submitted by @achou
+Submitted by [achou11](https://github.com/achou11)
 
 Blog post: http://tabletopwhale.com/2019/07/29/the-world-constellations.html:
 

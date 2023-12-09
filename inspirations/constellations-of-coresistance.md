@@ -1,6 +1,6 @@
 # Constellations of Coresistance - Nishnaabeg cosmological creation stories
 
-Submitted by @rudokemper
+Submitted by [rudokemper](https://github.com/rudokemper)
 
 [CONSTELATIONS OF CORESISTANCE.pdf](https://github.com/Terrastories/stellarstories/files/10137449/CONSTELATIONS.OF.CORESISTANCE.pdf)
 

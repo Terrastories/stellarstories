@@ -1,6 +1,6 @@
 # The First Astronomers: How Indigenous Elders Read the Stars
 
-Submitted by @rudokemper
+Submitted by [rudokemper](https://github.com/rudokemper)
 
 https://www.thefirstastronomers.com/
 
