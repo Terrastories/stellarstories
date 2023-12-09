@@ -3,7 +3,7 @@ const sampleStories = [
         "title": "Story about the Hercules Constellation",
         "desc": "This narrative delves into the rich tapestry of Indigenous folklore surrounding the Hercules Constellation, known as Weturopiya in the local dialect. The story recounts the celestial journey of a legendary hero, mirrored in the stars, whose feats are deeply interwoven with the community's ancestral teachings. It reflects the community's reverence for the night sky as a source of wisdom and guidance.",
         "id": 5,
-        "created_at": "2023-11-14T10:41:15.533Z",
+        "created_at": "2023-11-10T10:41:15.533Z",
         "points": [
             {
                 "type": "Feature",
@@ -56,7 +56,28 @@ const sampleStories = [
             }
         ],
         "language": "Weturo",
-        "media": [],
+        "media": [
+            {
+                "id": 3,
+                "url": "/images/hercules.webp",
+                "blob": {
+                    "id": 3,
+                    "key": "hercules.webp",
+                    "filename": "hercules.webp",
+                    "content_type": "image/webp",
+                    "metadata": {
+                        "identified": true,
+                        "width": 569,
+                        "height": 695,
+                        "analyzed": true
+                    },
+                    "byte_size": 498641,
+                    "checksum": "Ohe5QxXm5V+J7Oj24W6EHg==",
+                    "created_at": "2023-12-09T18:38:01.180Z",
+                    "service_name": "local"
+                }
+            }
+        ],
         "speakers": [
             {
                 "id": 8,
@@ -79,7 +100,7 @@ const sampleStories = [
         "title": "Ursa Major: The Great Bear",
         "desc": "This account explores the multifaceted myths surrounding Ursa Major, the Great Bear constellation, as perceived through various cultural lenses. From its representation as a great celestial bear hunted by warriors to its role as a navigational guide for ancient sailors, the story uncovers the constellation's significance across different societies and epochs. It's a journey through time, illustrating how stars have shaped human history and mythology.",
         "id": 4,
-        "created_at": "2023-11-14T10:41:15.516Z",
+        "created_at": "2023-11-13T10:41:15.516Z",
         "points": [
             {
                 "type": "Feature",
@@ -132,7 +153,28 @@ const sampleStories = [
             }
         ],
         "language": "English",
-        "media": [],
+        "media": [
+            {
+                "id": 3,
+                "url": "/images/ursamajor.jpg",
+                "blob": {
+                    "id": 3,
+                    "key": "ursamajor.jpg",
+                    "filename": "ursamajor.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 569,
+                        "height": 695,
+                        "analyzed": true
+                    },
+                    "byte_size": 498641,
+                    "checksum": "Ohe5QxXm5V+J7Oj24W6EHg==",
+                    "created_at": "2023-12-09T18:38:01.180Z",
+                    "service_name": "local"
+                }
+            }
+        ],
         "speakers": [
             {
                 "id": 6,
@@ -148,7 +190,7 @@ const sampleStories = [
             }
         ],
         "media_links": [],
-        "permission_level": "anonymous",
+        "permission_level": "restricted",
         "topic": null
     },
     {
@@ -208,8 +250,28 @@ const sampleStories = [
             }
         ],
         "language": "Ogiar",
-        "media": [],
-        "speakers": [
+        "media": [
+            {
+                "id": 3,
+                "url": "/images/milkyway.webp",
+                "blob": {
+                    "id": 3,
+                    "key": "milkyway.webp",
+                    "filename": "milkyway.webp",
+                    "content_type": "image/webp",
+                    "metadata": {
+                        "identified": true,
+                        "width": 569,
+                        "height": 695,
+                        "analyzed": true
+                    },
+                    "byte_size": 498641,
+                    "checksum": "Ohe5QxXm5V+J7Oj24W6EHg==",
+                    "created_at": "2023-12-09T18:38:01.180Z",
+                    "service_name": "local"
+                }
+            }
+        ],        "speakers": [
             {
                 "id": 4,
                 "name": "Ava Patel",
@@ -230,7 +292,7 @@ const sampleStories = [
             }
         ],
         "media_links": [],
-        "permission_level": "anonymous",
+        "permission_level": "restricted",
         "topic": ""
     },
     {
@@ -290,8 +352,28 @@ const sampleStories = [
             }
         ],
         "language": "Greek",
-        "media": [],
-        "speakers": [
+        "media": [
+            {
+                "id": 3,
+                "url": "/images/cassiopeia.jpg",
+                "blob": {
+                    "id": 3,
+                    "key": "cassiopeia.jpg",
+                    "filename": "cassiopeia.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 569,
+                        "height": 695,
+                        "analyzed": true
+                    },
+                    "byte_size": 498641,
+                    "checksum": "Ohe5QxXm5V+J7Oj24W6EHg==",
+                    "created_at": "2023-12-09T18:38:01.180Z",
+                    "service_name": "local"
+                }
+            }
+        ],        "speakers": [
             {
                 "id": 5,
                 "name": "Elena Rivera",
@@ -366,8 +448,28 @@ const sampleStories = [
             }
         ],
         "language": "English",
-        "media": [],
-        "speakers": [
+        "media": [
+            {
+                "id": 3,
+                "url": "/images/sun.jpg",
+                "blob": {
+                    "id": 3,
+                    "key": "sun.jpg",
+                    "filename": "sun.jpg",
+                    "content_type": "image/jpeg",
+                    "metadata": {
+                        "identified": true,
+                        "width": 569,
+                        "height": 695,
+                        "analyzed": true
+                    },
+                    "byte_size": 498641,
+                    "checksum": "Ohe5QxXm5V+J7Oj24W6EHg==",
+                    "created_at": "2023-12-09T18:38:01.180Z",
+                    "service_name": "local"
+                }
+            }
+        ],        "speakers": [
             {
                 "id": 1,
                 "name": "Isabella Garcia",
