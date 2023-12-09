@@ -4,6 +4,8 @@ This repo provides a proof of concept for Stellarstories, a sister project to [T
 
 If we decide to build Stellarstories as an extension of Terrastories instead of a unique application, the plan would be to build out a shared core architecture for both Terrastories and Stellarstories (and any future extensions). This will help us guarantee and further develop platform stability for both apps, if one is being worked on. We still have to scope out the best way to do this in terms of repo management.
 
+![](inspirations/stellarstories.png)
+
 ## How to contribute
 
 We would love your ideas and links for possible inspiration for this project! Please feel free to share by adding to the [Inspirations directory](./inspirations/). Please contribute a markdown file with a title, contributor source, and any descriptive content.
